@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vehicle-service
-          image: mahetech/vehicle-service:1.0
+          image: mahetech/vehicle-service:2.0
           imagePullPolicy: Never
           ports:
             - containerPort: 8081
